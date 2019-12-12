@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:14px/1.5 "Microsoft YaHei","微软雅黑", Arial, Tahoma, Simsun;}
+button, input, select, textarea, h1, h2, h3, h4, h5, h6 { font-size:100%; }
+h1, h2, h3, h4, h5, h6 { font-family: "Microsoft YaHei","微软雅黑";  font-weight:normal;}
+h2, h3 { font-size:14px;}
+button, input, select, textarea, label { vertical-align:middle; outline:none; border:0;}
+img { vertical-align:top; border:none;  }
+ul, ol { list-style:none; }
+a { text-decoration:none; color:#333333; vertical-align:baseline; cursor:pointer; }
+a:hover { text-decoration:none;  }
+em,i{font-style:normal;}
+table { border-collapse:collapse; border-spacing:0; }
+body { _height:100%; min-width:1190px; }
+* {box-sizing: border-box;}
+/*公共样式*/
+.g-mt-5{ margin-top:5px;}
+.g-mt-10{ margin-top:10px;}
+.g-mt-15{ margin-top:15px;}
+.g-mt-20{ margin-top:20px;}
+.g-mt-30{ margin-top:30px;}
+.g-mt-40{ margin-top:40px;}
+.g-mr-10{margin-right: 10px;}
+.g-mr-20{ margin-right:20px;}
+.g-mr-30{ margin-right:30px;}
+.g-mr-40{ margin-right:40px;}
+.g-ml-15{ margin-left:15px;}
+.g-ml-20{ margin-left:20px;}
+.g-ml-5 {margin-left: 5px;}
+.g-ml-10{margin-left: 10px;}
+.g-ml-30{margin-left: 30px;}
+.g-mb-10{margin-bottom: 10px;}
+.g-mb-40{margin-bottom: 40px;}
+.g-mb-20{ margin-bottom:20px;}
+
+.g-pt-15{padding-top: 15px;}
+.g-pt-30{padding-top: 30px;}
+.g-pt-70{padding-top:70px;}
+.g-pb-20 {padding-bottom: 20px;}
+.g-pl-20 {padding-left: 20px;}
+.g-pr-10{padding-right: 10px;}
+
+.g-of-h {overflow: hidden;}
+.g-f-l{float:left;}
+.g-f-r{float:right;}
+.g-dp-b{display:block;}
+
+.g-c-44 {color:#444;}
+.g-c-e4 {color:#e4e4e4;}
+.g-c-33 {color:#333333;}
+.g-c-88 {color:#888888;}
+.g-c-66 {color:#666666;}
+.g-c-42b {color:#e5242b;}
+
+.g-fz-12{font-size:12px;}
+.g-fz-14{font-size:14px;}
+.g-fz-16{font-size:16px;}
+.g-fz-18{font-size:18px;}
+.g-fz-22{font-size:22px;}
+.g-fz-24{font-size:24px;}
+.g-fz-28{font-size:28px;}
+.g-fz-30{font-size:30px;}
+
+.g-fb-700{font-weight:700;}
+.g-fb-600{font-weight: 600;}
+
+.g-ta-c{text-align:center;}
+.g-br-4{border:1px solid #ccc;}
+.g-br-b{border-bottom:1px solid #ccc; }
+.g-br-l{border-left:1px solid #ccc; }
+
+.clearfloat::after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+/*背景色*/
+.main-box {width: 1190px;min-width: 1190px;margin:0 auto;}
